@@ -1,0 +1,31 @@
+In this article, we will be building an IP address finder app that lets you find your client’s approximate location on a map. An IP address is a unique address that identifies a device on the internet or a local network. IP stands for “Internet Protocol,” which is the set of rules governing the format of data sent via the internet or local network. Through this article, we will learn how to get the user’s IP address as well as display his/her approximate location on a map.
+
+Lets take a look at how the final application will look like:
+
+Prerequisites: The pre-requisites for this project are:
+
+React
+Functional Components
+React Hooks
+Axios & APIS
+Javascript ES6
+Creating a React application and Module installation:
+
+Step 1: Create a react application by typing the following command in the terminal:
+
+Step 2: Now, go to the project folder i.e ip-finder by running the following command:
+
+Step 3: Install some npm packages required for this project using the following command:
+
+npm install axios 
+npm install react-map-gl
+npm install react-icons
+Go to the website: https://www.mapbox.com/ and create a free account.
+Go to your account dashboard and at the bottom of the page you will find a section named “Access tokens”.
+
+App.js: In this file, we will fetch the user’s IP address using a free open-source API named https://ipapi.co/ (free plan: 1000 requests/day). 
+Map.js: Now write down the following code in the Map.js component.
+Note: Replace <YOUR_API_KEY> with your own Mapbox public access token.
+App.css: This file contains the styling of the webpages.
+
+
