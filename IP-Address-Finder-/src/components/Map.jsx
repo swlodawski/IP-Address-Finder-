@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import ReactMapGL, { Marker } from 'react-map-gl';
-import { RiUserLocationFill } from 'react-icons';
+import { RiUserLocationFill } from 'react-icons/ri';
 
 const API_KEY = `<pk.eyJ1Ijoic3dsb2Rhd3NraSIsImEiOiJjbTRvejJ4eXgwb2VhMmpvcnlycm8yaHMwIn0.7pJlWj3CWosKwRedbetF-A>`;
 
