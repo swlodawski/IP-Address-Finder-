@@ -19,7 +19,7 @@ function App () {
 
   return (
     <>
-    <h1 className="heading">IP Adress Finder</h1>
+    <h1 className="heading">IP Address Finder</h1>
     <div className="App">
       <div className="left">
         <h4>What is my IPv4 address?</h4>

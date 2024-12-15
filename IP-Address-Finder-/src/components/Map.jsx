@@ -29,7 +29,7 @@ const Map = ({ lat, lon }) => {
       onViewPortChange={(viewport) => setViewport(viewport)}
       mapStyle='mapbox://styles/mapbox/streets-v11'>
         <Marker latitude={lat} longitude={lon}>
-          <div className='mark'>
+          <div>
             <RiUserLocationFill size="25px" color="blue" />
           </div>
         </Marker>
